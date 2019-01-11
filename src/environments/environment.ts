@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+
+  //Datos BD Firebase->click en Añade una aplicación para empezar
+  firebase: {
+    apiKey: "AIzaSyBhkaSDUJxPzqFC6UEBJNbdZSAFBz9Ga8U",
+    authDomain: "notificacionespush-82cb7.firebaseapp.com",
+    databaseURL: "https://notificacionespush-82cb7.firebaseio.com",
+    projectId: "notificacionespush-82cb7",
+    storageBucket: "notificacionespush-82cb7.appspot.com",
+    messagingSenderId: "741842939237"
+  }
 };
 
 /*
